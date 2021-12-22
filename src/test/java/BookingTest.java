@@ -13,7 +13,6 @@ public class BookingTest extends BaseTest {
     private final PaymentPage paymentPage = new PaymentPage();
     private final PaymentBO paymentBO = new PaymentBO();
 
-
     @Test(description = "Booking basic without all")
     private void bookingBasicWithoutAll(){
         mainPage
